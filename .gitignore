@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.env
+
+# Keep env example
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# OpenWork (not part of MVP)
+.opencode/
+
+# SQLite database (created at runtime)
+*.db
+
+# Azure / deployment artifacts
+*.zip
+*.tar.gz
+
+# Pre-delivery cleanup — removed from git
+tests/
+postman/
+docs/
+liste.md
+README.backup.md
+MVP.md
